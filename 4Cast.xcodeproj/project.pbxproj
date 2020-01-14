@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B2DDE7423A03E18008A855A /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DDE7323A03E18008A855A /* WeatherManager.swift */; };
+		2B2DDE7823A0536B008A855A /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DDE7723A0536B008A855A /* WeatherData.swift */; };
 		2B7A248C2396D29400114C7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A248B2396D29400114C7D /* AppDelegate.swift */; };
 		2B7A248E2396D29400114C7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A248D2396D29400114C7D /* SceneDelegate.swift */; };
 		2B7A24902396D29400114C7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A248F2396D29400114C7D /* ContentView.swift */; };
 		2B7A24922396D29500114C7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B7A24912396D29500114C7D /* Assets.xcassets */; };
 		2B7A24952396D29500114C7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B7A24942396D29500114C7D /* Preview Assets.xcassets */; };
 		2B7A24982396D29500114C7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7A24962396D29500114C7D /* LaunchScreen.storyboard */; };
+		2BC78D8A23A4184100491562 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC78D8923A4184100491562 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B2DDE7323A03E18008A855A /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		2B2DDE7723A0536B008A855A /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		2B7A24882396D29400114C7D /* 4Cast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4Cast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7A248B2396D29400114C7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B7A248D2396D29400114C7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		2B7A24942396D29500114C7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2B7A24972396D29500114C7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B7A24992396D29500114C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BC78D8923A4184100491562 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = "Preview Content/LocationManager.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				2B7A24962396D29500114C7D /* LaunchScreen.storyboard */,
 				2B7A24992396D29500114C7D /* Info.plist */,
 				2B7A24932396D29500114C7D /* Preview Content */,
+				2B2DDE7323A03E18008A855A /* WeatherManager.swift */,
+				2B2DDE7723A0536B008A855A /* WeatherData.swift */,
+				2BC78D8923A4184100491562 /* LocationManager.swift */,
 			);
 			path = 4Cast;
 			sourceTree = "<group>";
@@ -147,7 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B7A248C2396D29400114C7D /* AppDelegate.swift in Sources */,
+				2B2DDE7823A0536B008A855A /* WeatherData.swift in Sources */,
+				2BC78D8A23A4184100491562 /* LocationManager.swift in Sources */,
 				2B7A248E2396D29400114C7D /* SceneDelegate.swift in Sources */,
+				2B2DDE7423A03E18008A855A /* WeatherManager.swift in Sources */,
 				2B7A24902396D29400114C7D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
