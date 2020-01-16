@@ -27,7 +27,7 @@ struct ContentView: View {
                         }) {
                             Image(systemName: "globe")
                             .resizable()
-                            .frame(width: 25, height: 25, alignment: .center)
+                            .frame(width: 24, height: 25, alignment: .center)
                             .foregroundColor(.init("textcolor"))
                         }
                         TextField("Enter city name", text: $cityName)
